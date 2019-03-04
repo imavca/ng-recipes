@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model'
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('A Test Recipe', 'This is simply a test', 'http://mayakitchenette.com/wp-content/uploads/2014/07/mee-siam-recipe-2-1.jpg?x93888'),
     new Recipe('A Test Recipe', 'This is simply a test', 'http://mayakitchenette.com/wp-content/uploads/2014/07/mee-siam-recipe-2-1.jpg?x93888')
   ];
 
